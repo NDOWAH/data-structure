@@ -22,11 +22,9 @@ def reverseArray(arr, arr_size):
     if arr_size == 1 or arr_size == 0:
         return arr
     else:
-        while arr_size >= 0:
+        while arr_size > 0:
             reverse_array.append(arr[arr_size-1])
             arr_size -= 1
-    return reverse_array[:-1]
-
-
+    return reverse_array
 
 
