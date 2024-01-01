@@ -6,7 +6,7 @@ def reverseArray(arr, arr_size):
     This functions takes an array and return its reverse.
     :param arr: the array we want to reverse
     :param arr_size: size of the array we want to reverse
-    :return: type of arr
+    :return: type(arr)
     >>> reverseArray([1, 2, 6, 8, 9], 5)
     [9, 8, 6, 2, 1]
     >>> reverseArray([1, 2, 5, 9], 4)
