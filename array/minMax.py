@@ -6,7 +6,7 @@ def minMax(arr):
     >>> minMax([1,2,5, 7, 10, 15, 20])
     (1, 20)
     >>> minMax([8, 5, 2, 45, 0, 30])
-    (2, 45)
+    (0, 45)
     >>> minMax([50, 20, 15, 5, 3, 2])
     (2, 50)
     >>> minMax([12])
@@ -27,6 +27,3 @@ def minMax(arr):
     return tuple(result)
 
 
-arr = [50, 20, 15, 5, 3, 2]
-
-print(arr.sort())
